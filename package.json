@@ -1,0 +1,37 @@
+{
+  "name": "react-training",
+  "version": "1.0.0",
+  "description": "Following along with React Fundamentals from online.reacttraining.com",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.28.0",
+    "style-loader": "^0.18.1",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": ["env", "react"]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSurguy/react-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSurguy/react-training/issues"
+  },
+  "homepage": "https://github.com/DSurguy/react-training#readme"
+}
